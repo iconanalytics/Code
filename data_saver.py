@@ -19,13 +19,3 @@ class DataSaver:
     def close_file(self):
 
         self.log_file.close()
-
-
-def main():
-    log_file_name = 'C://Users//charles.fawole//Dropbox//Icon Analytics//Code//workfile.csv'
-    header = "datetime,query,target,found?,index"
-    ds = DataSaver(log_file_name,header)
-    ds.log_entry("1")
-    ds.log_entry("2")
-
-main()
