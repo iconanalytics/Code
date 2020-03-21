@@ -28,7 +28,7 @@ for i in search(query,        # The query you want to run
                ):
     index = index +1
 
-    out_res = str(index)+"     "+i                
+    out_res = str(index)+"       "+i                
     my_results_list.append(out_res)
     print(out_res)
 
